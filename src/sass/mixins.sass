@@ -1,0 +1,26 @@
+// Hide from both screenreaders and browsers
+=hidden
+	display: none
+	visibility: hidden
+
+=visible
+  display: block
+  visibility: visible
+
+=container
+	min-width: 320px
+	max-width: 980px
+	margin: 0 auto
+
+@mixin center($horizontal: true, $vertical: true)
+  position: absolute
+  @if ($horizontal and $vertical)
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+  @else if ($horizontal)
+    left: 50%
+    transform: translate(-50%, 0)
+  @else if ($vertical)
+    top: 50%
+    transform: translate(0, -50%)

@@ -1,0 +1,17 @@
+.page-main__exhibitions,
+.page-main__artshop,
+.page-main__artists,
+.page-header__welcome {
+  height: 500px; }
+
+.page-header__welcome {
+  background-color: pink; }
+
+.page-main__exhibitions {
+  background-color: blue; }
+
+.page-main__artshop {
+  background-color: gray; }
+
+.page-main__artists {
+  background-color: green; }
